@@ -1,0 +1,26 @@
+body{
+    background-color: #76D7C4;
+}
+
+h2{
+    background-color: #A569BD;
+    font-weight: bold;
+    background-size: 20px;
+}
+h3{
+    background-color: hotpink;
+
+}
+table{
+    line-height: 60px;
+    border: 10px solid red;
+    padding: 4px;
+    font-weight: bold;
+    background-color: #AED6F1;
+    width: 50%;
+}
+tr:nth-child(even){
+    background-color: grey;
+    opacity: 0.9;
+
+}

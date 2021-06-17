@@ -1,0 +1,22 @@
+body{
+    background-color: #E5E7E9;
+
+}
+p:nth-child(even){
+    color: green;
+    font-weight: bold;
+}
+[title]{
+    color: indigo;
+}
+[title="prog"]{
+
+    color: red;
+}
+a:hover{
+    color:chartreuse;
+}
+}
+p::after{
+    content: "!!";
+}
